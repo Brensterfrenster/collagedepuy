@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Everybody Loves Raymond Collage</title>
+
+	<style type="text/css">
+		body {
+			background: red;			
+	}
+
+	.container {
+		background: green;
+		min-height: 100vh;
+		display: grid;
+		grid-template-columns: 1fr 2fr 3fr;
+		grid-template-rows: 400px 400px 400px;
+		grid-template-areas: 
+			"p1 p2 p3"
+			"p4 p5 p6"
+			"p7 p7 p9";
+			grid-gap: 10px;
+
+	}
+
+	.item {
+		background: blue;
+		min-height: 100px;
+		min-width: 100px;
+	}
+
+	#photo1 {
+		grid-area: p1;
+		background: url(http://captaininfinity.us/crossthreads/rayromano.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	#photo2 {
+		grid-area: p2;
+		background: url(http://images4.fanpop.com/image/photos/19900000/Debra-everybody-loves-raymond-19942870-386-600.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	#photo3 {
+		grid-area: p3;
+		background: url(https://i.pinimg.com/originals/d2/5b/f7/d25bf7568b99145addbcf3d23ed6f71e.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	#photo4 {
+		grid-area: p4;
+		background: url(http://princetonfound.com/wp-content/uploads/2013/01/everybody-loves-raymond-doris-roberts-2-2.jpg);
+		background-size: cover;
+		background-position: center;		
+	}
+
+	#photo5 {
+		grid-area: p5;
+		background: url(https://static.tvmaze.com/uploads/images/medium_portrait/4/11815.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	#photo6 {
+		grid-area: p6;
+		background: url(https://vignette.wikia.nocookie.net/raymond/images/b/b2/Everybody-Loves-Raymond_cast_1024-768.jpg.png/revision/latest?cb=20121017225057);
+		background-size: cover;
+		background-position: center;
+	}
+
+	#photo7 {
+		grid-area: p7;
+		background: url(http://staging-www.cbstvd.com/Images/Shows/ELR-showpage.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	#photo8 {
+		grid-area: p8;
+		background: url(www.libela.org/px/article/_e/everybody_loves_raymond26.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	#photo9 {
+		grid-area: p9;
+		background: url(https://www.usmagazine.com/wp-content/uploads/everybody-loves-raymond-zoom-a7ff63ba-f8bf-4531-885f-7e1f99b1f33b.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="item" id="photo1">
+		</div>
+		<div class="item" id="photo2">
+		</div>
+		<div class="item" id="photo3">
+		</div>
+		<div class="item" id="photo4">
+		</div>
+		<div class="item" id="photo5">
+		</div>
+		<div class="item" id="photo6">
+		</div>
+		<div class="item" id="photo7">
+		</div>
+		
+		<div class="item" id="photo9">
+		</div>
+	</div>
+</body>
+</html>
